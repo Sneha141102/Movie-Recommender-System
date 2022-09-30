@@ -1,0 +1,196 @@
+*
+{
+  padding: 0;
+  margin: 0;
+}
+.header{
+  height: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(backdrop.jpg);
+  background-size: cover;
+  background-position: center ;
+  background-attachment: fixed;
+  padding-top: 30px;
+  padding-right: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.header  a{
+  color: #fff;
+  padding: 12px;
+  margin: auto;
+  padding: 10px;
+  text-decoration:underline;
+}
+.header img{
+  width: 170px;
+  float: left;
+  padding: 12px;
+}
+.login-btn{
+  width: 100px;
+  padding: 8px;
+  outline: none !important;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  background: transparent;
+  color: #fff;
+  float: right;
+}
+
+.header h1{
+  padding-top: 230px;
+  padding-bottom: 0px;
+  font-size: 55px;
+}
+
+@media screen and (max-width: 700px) {
+  .input-group{
+    width: 100%;
+  }
+  
+}
+.recommend{
+    padding: 100px 0;
+    background-color: efefef;
+
+}
+.recommend h1{
+    text-align: center;
+}
+.input-group{
+  width: 90% !important;
+  max-width: 300px;
+  border-radius: 30px;
+  background:#fff;
+  margin: auto;
+  padding:2px;
+ 
+}
+.form-control{
+  border: 0px !important;
+  border-radius: 30px  !important;
+  margin: 2px;
+  box-shadow: none !important;
+}
+.input-group-text{
+  width: 120px;
+  background-image: linear-gradient(red,black);
+  border: 0 !important;
+  color: #fff !important;
+  padding: 0 45px;
+  border-radius: 80px !important;
+  box-shadow: none;
+}
+select {
+  margin-right: 50%;
+  width: 750px;
+  padding: 5px 35px 5px 5px;
+  font-size: 16px;
+  border: 1px solid #CCC;
+  height: 34px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  }
+
+
+.services{
+  padding: 100px 0;
+  
+}
+.services h1{
+    text-align: center;
+}
+.services .container{
+  display: flex; 
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.services .container .service-box{
+  flex: 1 1 20rem;
+  border-radius: .5rem;
+  padding: 1rem;
+  text-align: center;
+}
+.services .container .service-box i{
+  padding:1rem;
+  font-size:3rem;
+  color: red;
+}
+
+.services .service-box .service-box:hover{
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+.features
+{
+  padding: 100px 0;
+}
+.features h1
+{
+  text-align: center;
+  padding: 30px;
+}
+.feature-img img{
+  width: 100%;
+}
+
+.price
+{
+  width: 50px;
+  height: 50px;
+  background:#ff5722;
+  color: #fff;
+  font-weight: 600;
+  font-size: 10px;
+  border-radius:50%;
+  padding:10px;
+  box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+  position: absolute;
+  left: 20px;
+  bottom: -25px;
+
+}
+.feature-img{
+  position: relative;
+}
+.rating{
+  padding: 3px;
+  float: right;
+  background: #fff;
+  bottom: -1px;
+  right:0;
+  position: absolute;
+}
+.features .fas{
+  font-size: 15px;
+  color:red;
+}
+.feature-details{
+  padding: 20px;
+  text-align: justify;
+}
+.feature-details h4{
+  font-weight: 600;
+  margin-top:20px;
+}
+.feature-details .fa{
+  margin-right: 5px;
+}
+.feature-box{
+  box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+  margin-bottom: 30px;
+}
+
+.footer{
+    padding: 0%;
+}
+
+.fa-heart{
+    margin: 0 5px;
+    color: #f44336
+  }
+  .footer .copyright{
+    text-align: center;
+  }
